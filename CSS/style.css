@@ -1,11 +1,11 @@
 body{
-    padding-top: 0.1em;
-    padding-left: 0.1em;
-    padding-right: 0.1em;
-    margin: 0.1em;
-    border: 0.4em  solid black;
-    width: 98%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 100%;
     position: absolute;
+    box-sizing: border-box;
+    outline: 0;
     
     
 }
@@ -120,7 +120,13 @@ body{
             right: 100%;
         }
     }
-
-
-
-
+    @media(max-width: 1400px){
+        .corpo{
+            width: 1200px;
+        }
+    }
+    @media(max-heigth: 900){
+        .corpo{
+            height: 700px;
+        }
+    }

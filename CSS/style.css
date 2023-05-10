@@ -41,7 +41,7 @@ body{
     width: 20%;
     right: 20%;
     padding-top: 5%;
-    padding-right: 69em;
+    padding-right: 55%;
     position: absolute;
 
 }
@@ -67,8 +67,8 @@ body{
     display: flex;
     justify-content: center;
     position: absolute;
-    bottom: 8em;
-    left: 65em;
+    bottom: 10%;
+    left: 45%;
     color: rgb(0, 0, 0);
 }
 

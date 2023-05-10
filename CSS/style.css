@@ -25,9 +25,7 @@ body{
     width: 23em;
     right: 10em;
     padding-bottom: 28em;
-    position: absolute;
-    animation: cloud-animation 20s  infinite linear;
-    
+    position: absolute;    
 }
 
 .cloud2{
@@ -36,7 +34,6 @@ body{
     padding-top: 22em;
     padding-right: 20em;
     position: absolute;
-    animation: cloud-animation 20s  infinite linear;
     
 }
 
@@ -46,7 +43,6 @@ body{
     padding-top: 5em;
     padding-right: 69em;
     position: absolute;
-    animation: cloud-animation 20s  infinite linear;
 
 }
 
@@ -113,11 +109,31 @@ body{
 
     @keyframes cloud-animation{
         from{
-            right: -1500px;
+            right: -500px;
         }
     
         to{
             right: 100%;
+        }
+    }
+    @media(max-width: 1300px){
+        .corpo{
+            width: 1200px;
+        }
+    }
+    @media(max-heigth: 1100px){
+        .corpo{
+            height: 1000px;
+        }
+    }
+    @media(max-width: 1500px){
+        .corpo{
+            width: 1300px;
+        }
+    }
+    @media(max-heigth: 1100){
+        .corpo{
+            height: 1000px;
         }
     }
     @media(max-width: 1400px){

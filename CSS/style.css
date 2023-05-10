@@ -1,0 +1,126 @@
+body{
+    padding-top: 0.1em;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    margin: 0.1em;
+    border: 0.4em  solid black;
+    width: 98%;
+    position: absolute;
+    
+    
+}
+.pipe{
+    width: 65px;
+    padding-top: 603px;
+    position: absolute;
+    animation: pipe-animation 2s infinite linear ;
+    transition: right 1s linear;
+    transition-duration: 2s;
+    right: -250x;
+    
+    
+}
+
+.cloud{
+    width: 450px;
+    right: 10em;
+    padding-bottom: 28em;
+    position: absolute;
+    animation: cloud-animation 20s  infinite linear;
+    
+}
+
+.cloud2{
+    width: 400px;
+    right: 25em;
+    padding-top: 22em;
+    padding-right: 20em;
+    position: absolute;
+    animation: cloud-animation 20s  infinite linear;
+    
+}
+
+.cloud3{
+    width: 400px;
+    right: 25em;
+    padding-top: 5em;
+    padding-right: 69em;
+    position: absolute;
+    animation: cloud-animation 20s  infinite linear;
+
+}
+
+.mario{
+    width: 125px;
+    left: 10px;
+    position: absolute;
+    bottom: 247px;  
+
+}
+.background{
+    width: 117.5em;
+    height: 57.9em;
+    padding-top: 0.2em;
+       
+}
+.jump{
+    animation: marioanimations 400ms ease-out;
+    
+}
+
+.restart{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 100px;
+    left: 900px;
+    color: rgb(0, 0, 0);
+}
+
+@keyframes pipe-animation{
+    from{
+        right: 0px;
+    }
+
+    to{
+        right: 100%;
+    }
+}
+
+@keyframes marioanimations{
+    0%{
+       bottom: 271px;
+    }
+   
+    40%{
+        bottom: 500px;
+    }
+
+    50%{
+        bottom: 500px;
+   }
+   60%{
+    bottom: 500px;
+       }
+       70%{
+        bottom: 470px;
+       }
+
+    100%{
+        bottom: 271px;
+        }
+    }
+
+    @keyframes cloud-animation{
+        from{
+            right: -1500px;
+        }
+    
+        to{
+            right: 100%;
+        }
+    }
+
+
+
+
